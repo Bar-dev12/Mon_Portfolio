@@ -1,0 +1,42 @@
+[
+    {
+    "id": 1,
+    "period": "2020 - 2023",
+    "endDate": "2023-11",
+    "institution": "ISIPA - Institut Supérieur d'Informatique, Programmation et Analyse",
+    "degree": "Informatique de Gestion",
+    "mention": "Graduat",
+    "description": "Analyse de systèmes et gestion de bases de données.",
+    "skills": ["Analyse SI", "C#", "SQL"]
+    },
+  {
+    "id": 2,
+    "period": "2023",
+    "endDate": "2023-10",
+    "institution": "En ligne",
+    "degree": "Windev 23 - Formation Complète",
+    "mention": "",
+    "description": "Formation complète sur le développement d'applications avec Windev 23, couvrant les bases du langage, la création d'interfaces utilisateur, la gestion de bases de données et les meilleures pratiques de développement.",
+    "skills": ["Windev", "Développement d'applications", "Gestion de bases de données"]
+  },
+{
+    "id": 3,
+    "period": "2024",
+    "endDate": "2024-06",
+    "institution": "TUIP",
+    "degree": "Formation en numérique",
+    "mention": "Certificat",
+    "description": "Formation intensive en numérique, couvrant les fondamentaux de l'informatique, les technologies web, et les compétences numériques essentielles pour le développement de projets technologiques.",
+    "skills": ["JavaScript", "Développement Front-End", "Design graphique"]
+},
+{
+    "id": 4,
+    "period": "2025",
+    "endDate": "2025-11",
+    "institution": "Dev Artefact",
+    "degree": "Formation React/Next.js - Développeur Front-End",
+    "mention": "Certificat",
+    "description": "Formation intensive sur le développement front-end avec React, couvrant les concepts fondamentaux de React, la gestion de l'état, les hooks, et la création d'applications web modernes et réactives.",
+    "skills": ["React", "JavaScript", "Développement Front-End"]
+}
+]

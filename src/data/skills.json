@@ -1,0 +1,30 @@
+[
+  {
+    "category": "Frontend",
+    "icon": "Layout",
+    "skills": [
+      { "name": "React", "level": "Bon" },
+      { "name": "Next.js", "level": "Intermédiaire" },
+      { "name": "Tailwind CSS", "level": "Bon" },
+      { "name": "Bootstrap", "level": "Bon" }
+    ]
+  },
+  {
+    "category": "Backend",
+    "icon": "Database",
+    "skills": [
+      { "name": "PHP / Laravel", "level": "Bon" },
+      { "name": "MySQL", "level": "Bon" },
+      { "name": "Node.js", "level": "Débutant" }
+    ]
+  },
+  {
+    "category": "Desktop & Tools",
+    "icon": "Monitor",
+    "skills": [
+      { "name": "C# / .NET", "level": "Assez bon" },
+      { "name": "Tauri (Rust)", "level": "Intermédiaire" },
+      { "name": "Git / GitHub", "level": "Bon" }
+    ]
+  }
+]

@@ -1,0 +1,31 @@
+{
+  "logo": "< bartdev />",
+
+  "personal": {
+    "firstName": "Jérémie",
+    "lastName": "Baruti",
+    "location": "Kinshasa, RDC",
+    "phone": "+243 812 290 362",
+    "role": "Développeur Web Full-Stack",
+    "bio": "Développeur junior passionné par la création d'applications web et desktop modernes. Toujours à la recherche de nouveaux défis pour apprendre et grandir dans le domaine du développement logiciel.",
+    "avatar": "/images/jeremie_baruti.webp",
+    "footeravatar": "/images/bart.webp"
+  },
+
+  "languages": [
+    { "name": "Français", "level": "Très bon" },
+    { "name": "Anglais", "level": "Intermédiaire" },
+    { "name": "Lingala", "level": "Courant" }
+  ],
+
+  "contact": {
+    "email": "jeremie.mondongab@gmail.com",
+    "socials": {
+      "whatsapp": "https://wa.me/243812290362",
+      "facebook": "https://web.facebook.com/jeremie.baruti.2025",
+      "linkedin": "https://www.linkedin.com/in/jérémie-baruti-5226b8252?",
+      "github": "https://github.com/Bar-dev12"
+    },
+    "copyright": "2026 Kinshasa, RDC"
+  }
+}
