@@ -1,0 +1,26 @@
+[
+  {
+    "id": "1",
+    "company": "Congolese Youth",
+    "role": "DAT & Développeur Full-Stack",
+    "period": "Fév 2023 - Présent",
+    "current": true,
+    "description": "Conception des sites et solution informatique pour clients et des applications de gestion interne de l'entreprise. Maintenance et optimisation des systèmes existants."
+  },
+  {
+    "id": "2",
+    "company": "Freelance",
+    "role": "Informaticien & Développeur",
+    "period": "2023 - Présent",
+    "current": true,
+    "description": "Formation en initiation à l'informatique, dépannage windows, développement des sites web, applications web et desktop, assistance pour tout autre tâche informatique."
+  },
+  {
+    "id": "3",
+    "company": "DPKT Transitory",
+    "role": "Consutant en Informatique",
+    "period": "Déc 2025 - Fév 2026",
+    "current": false,
+    "description": "Formation en initiation à l'informatique d'agent et assistance pour tout autre tâche informatique."
+  }
+]

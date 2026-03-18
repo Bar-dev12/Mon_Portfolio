@@ -72,7 +72,7 @@
     "collaborators": ["Charles MUKENDI", "Jean KABONGO"],
     "stack": ["Laravel", "MySQL", "React"],
     "description": "Système complet de gestion et publication des résultats universitaires.",
-    "thumbnail": "/images/projects/istm.webp",
+    "thumbnail": "/images/projects/e-result.webp",
     "category": "Web",
     "link": "#",
     "github": "#"
@@ -102,7 +102,7 @@
     "collaborators": ["Greg Kot", "Wise"],
     "stack": ["Laravel", "Next.js", "PostgreSQL", "Tailwind CSS"],
     "description": "Application web de gestion commerciale multi-boutiques, incluant gestion des produits, clients, ventes et rapports statistiques.",
-    "thumbnail": "/images/projects/pharmacie.webp",
+    "thumbnail": "/images/projects/MyStore.webp",
     "category": "Web",
     "link": "#",
     "github": "#"

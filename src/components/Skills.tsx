@@ -3,15 +3,16 @@ import * as Icons from 'lucide-react'; // On importe toutes les icônes
 
 export default function Skills() {
   return (
-    <section id="expertise" className="py-24 bg-[#0f172a]">
+    <section id="expertise" className="pt-24 bg-[#0f172a]">
       <div className="max-w-7xl mx-auto px-6">
         
-        <div className="mb-16">
-          <h2 className="text-3xl md:text-4xl font-bold text-white mb-4">
+        <div className="flex items-center gap-3 mb-4">
+          <Icons.Cpu className="text-cyan-400" size={28} />
+          <h2 className="text-3xl md:text-4xl font-bold text-white">
             Mon <span className="text-cyan-400">Expertise</span>
           </h2>
-          <div className="h-1 w-18 bg-cyan-400 rounded-full"></div>
         </div>
+        <div className="h-1 w-28 bg-cyan-400 rounded-full mb-12"></div>
 
         <div className="grid grid-cols-1 md:grid-cols-2 gap-8">
           {skillsData.map((group, index) => {

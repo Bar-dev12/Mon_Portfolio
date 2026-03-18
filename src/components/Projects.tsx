@@ -81,11 +81,11 @@ export default function Projects() {
   );
 
   return (
-    <section id="projets" className="py-24 bg-[#0f172a]">
+    <section id="projets" className="pt-20 mb-10 bg-[#0f172a]">
       <div className="max-w-7xl mx-auto px-6">
         
         {/* --- SECTION RÉALISATIONS --- */}
-        <div className="mb-12">
+        <div className="">
           <div className="flex items-center gap-3 mb-4">
             <CheckCircle2 className="text-cyan-400" size={24} />
             <h2 className="text-3xl md:text-4xl font-bold text-white">
@@ -96,7 +96,7 @@ export default function Projects() {
           <p className="text-slate-400 mb-8 max-w-2xl italic">Faites glisser pour voir plus de projets terminés →</p>
           
           {/* LE CONTENEUR DE SCROLL HORIZONTAL */}
-          <div className="flex overflow-x-auto gap-6 pb-8 snap-x no-scrollbar">
+          <div className="flex overflow-x-auto gap-6 pb-4 snap-x no-scrollbar">
             {completedProjects.map(project => (
               <div key={project.id} className="w-[85vw] md:w-[400px] flex-shrink-0 snap-start">
                 <ProjectCard project={project} isPending={false} />
@@ -105,7 +105,7 @@ export default function Projects() {
           </div>
         </div>
 
-        <div className="h-px w-full bg-slate-800 my-16 opacity-30"></div>
+        <div className="h-px w-full bg-slate-800 my-6 opacity-30"></div>
 
         {/* --- SECTION PROJETS EN COURS --- */}
         <div>
