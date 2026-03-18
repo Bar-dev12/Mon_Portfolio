@@ -22,8 +22,9 @@
     "category": "Desktop & Tools",
     "icon": "Monitor",
     "skills": [
-      { "name": "C# / .NET", "level": "Assez bon" },
-      { "name": "Tauri (Rust)", "level": "Intermédiaire" },
+      { "name": "C# / .NET", "level": "Bon" },
+      { "name": "Windev", "level": "Bon" },
+      { "name": "Tauri (Rust)", "level": "Débutant" },
       { "name": "Git / GitHub", "level": "Bon" }
     ]
   },
@@ -33,7 +34,7 @@
     "skills": [
       { "name": "Suite Office", "level": "Très bon" },
       { "name": "Photoshop", "level": "Bon" },
-      { "name": "Systèmes Windows", "level": "très bon" },
+      { "name": "Systèmes Windows", "level": "Très bon" },
       { "name": "Systèmes Mac", "level": "Bon" }
     ]
   }

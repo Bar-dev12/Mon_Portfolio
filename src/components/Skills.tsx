@@ -42,7 +42,7 @@ export default function Skills() {
                       <div className="w-full bg-slate-800/50 h-1.5 rounded-full overflow-hidden">
                         <div 
                           className="bg-linear-to-r from-cyan-500 to-blue-500 h-full rounded-full transition-all duration-1000" 
-                          style={{ width: skill.level === 'Expert' ? '95%' : skill.level === 'Avancé' ? '80%' : skill.level === 'Bon' ? '65%' : skill.level === 'Assez bon' ? '50%' : skill.level === 'Intermédiaire' ? '25%' : '10%' }}
+                          style={{ width: skill.level === 'Expert' ? '95%' : skill.level === 'Avancé' ? '80%' : skill.level === 'Très bon' ? '70%' : skill.level === 'Bon' ? '50%' : skill.level === 'Intermédiaire' ? '25%' : skill.level === 'Débutant' ? '10%' : '0%' }}
                         ></div>
                       </div>
                     </div>

@@ -41,21 +41,21 @@ export default function Contact() {
                     &quot;Besoin d&apos;un site, d&apos;une application web ou Desktop ? Où simplement d&apos;une collaboration sur un projet ? Discutons en.&quot;
                     </p>
 
-                    <div className="flex flex-wrap justify-center lg:justify-start gap-4">
+                    <div className="flex flex-wrap justify-center lg:justify-start gap-4 w-full max-w-xl mx-auto lg:mx-0">
                     {/* CTA Email */}
-                        <a href={`mailto:${contact.email}`} className="flex items-center gap-3 px-6 py-3 bg-slate-900 border border-slate-800 rounded-xl text-white hover:border-cyan-400/50 transition-all group">
+                        <a href={`mailto:${contact.email}`} className="flex-1 flex items-center gap-3 px-6 py-3 bg-slate-900 border border-slate-800 rounded-xl text-white hover:border-cyan-400/50 transition-all group">
                             <div className="p-2 bg-cyan-500 rounded-lg text-slate-950 group-hover:scale-110 transition-transform">
                             <Mail size={20} />
                             </div>
-                            <span className="font-bold">Contact par Mail</span>
+                            <span className="font-bold pl-5">Contact par Mail</span>
                         </a>
 
                         {/* CTA WhatsApp */}
-                        <a href={`${contact.socials.whatsapp}`} className="flex items-center gap-3 px-6 py-3 bg-slate-900 border border-slate-800 rounded-xl text-white hover:border-green-500/50 transition-all group">
+                        <a href={`${contact.socials.whatsapp}`} className="flex-1 flex items-center gap-3 px-6 py-3 bg-slate-900 border border-slate-800 rounded-xl text-white hover:border-green-500/50 transition-all group">
                             <div className="p-2 bg-green-500 rounded-lg text-slate-950 group-hover:scale-110 transition-transform">
                             <MessageCircle size={20} />
                             </div>
-                            <span className="font-bold">Contact WhatsApp</span>
+                            <span className="font-bold pl-5">Contact WhatsApp</span>
                         </a>
                     </div>
                 </div>
@@ -78,7 +78,7 @@ export default function Contact() {
             <div className="text-xl font-bold text-slate-500">
                 {siteConfig.logo}
             </div>
-            <div className="bg-cyan-500 h-5 w-1"></div>
+            <div className="bg-cyan-500 h-5 w-1 hidden md:flex"></div>
             <div className="text-[10px] md:text-xs text-slate-500 text-right">
                 &copy; {contact.copyright} | {personal.firstName} {personal.lastName}. <br className="md:hidden" />
                 Bati avec <span className="text-cyan-600">Next.js</span>
