@@ -3,7 +3,8 @@ import siteConfig from '@/data/siteConfig.json';
 import skillsData from '@/data/skills.json';
 import parcoursData from '@/data/parcours.json';
 import projectsData from '@/data/projects.json';
-import { Mail, Phone, MapPin, Globe, Github } from 'lucide-react';
+import experienceData from '@/data/experiences.json';
+import { Mail, Phone, MapPin, Globe, Github, Calendar } from 'lucide-react';
 import React from 'react';
 import Image from 'next/image';
 
@@ -35,7 +36,7 @@ export default function CVPage() {
             </button>
         </div>
 
-        <div className="max-w-[21cm] mx-auto bg-white shadow-2xl min-h-[29.7cm] flex flex-col md:flex-row print:flex-row border border-slate-100 [print-color-adjust:exact]">
+        <div className="max-w-[21cm] mx-auto bg-white min-h-[29.7cm] flex flex-col md:flex-row print:flex-row border border-slate-100 [print-color-adjust:exact]">
             
             {/* --- COLONNE GAUCHE (SIDEBAR) --- */}
             <div className="w-full md:w-1/3 print:w-1/3 bg-slate-50 p-8 border-r border-slate-100 shrink-0">
@@ -65,6 +66,7 @@ export default function CVPage() {
                     <ContactInfo icon={<Mail size={16}/>} text={contact.email} />
                     <ContactInfo icon={<Phone size={16}/>} text={personal.phone} />
                     <ContactInfo icon={<MapPin size={16}/>} text={personal.location} />
+                    {/* <ContactInfo icon={<Github size={16}/>} text={contact.socials.github} /> */}
                     <ContactInfo icon={<Globe size={16}/>} text={contact.portfolio} />
                 </div>
 
@@ -107,32 +109,53 @@ export default function CVPage() {
                 <div className="space-y-6">
                 {parcoursData.map((edu) => (
                     <div key={edu.id}>
-                    <div className="flex justify-between items-baseline">
-                        <h3 className="font-bold text-slate-900">{edu.degree}</h3>
-                        <span className="text-xs font-mono text-cyan-600">{edu.period}</span>
-                    </div>
-                    <p className="text-sm text-slate-500">{edu.institution} {edu.mention && `| ${edu.mention}`}</p>
+                        <div className="flex justify-between items-baseline">
+                            <h3 className="font-bold text-slate-900">{edu.degree}</h3>
+                            <span className="text-xs font-mono text-cyan-600">{edu.period}</span>
+                        </div>
+                        <p className="text-sm text-slate-500">{edu.institution} {edu.mention && `| ${edu.mention}`}</p>
                     </div>
                 ))}
                 </div>
             </section>
 
-            <section>
-            <h2 className="text-lg font-black uppercase tracking-widest mb-6 flex items-center gap-2">
-            <span className="w-8 h-1 bg-cyan-500"></span> Projets Clés
-            </h2>
-            <div className="grid grid-cols-1 gap-4">
-            {featuredProjects.map((p) => (
-                <div key={p.id} className="border-l-2 border-slate-100 pl-4">
-                <h3 className="font-bold text-sm">{p.title}</h3>
-                <p className="text-xs text-slate-500 mt-1">{p.description}</p>
-                <p className="text-[10px] text-cyan-600 mt-1 font-mono">
-                    {p.stack.join(' • ')}
-                </p>
+            <section className="mb-10">
+                <h2 className="text-lg font-black uppercase tracking-widest mb-6 flex items-center gap-2">
+                    <span className="w-8 h-1 bg-cyan-500"></span> Projets Clés
+                </h2>
+                <div className="grid grid-cols-1 gap-4">
+                    {featuredProjects.map((p) => (
+                        <div key={p.id} className="border-l-2 border-slate-100 pl-4">
+                            <h3 className="font-bold text-sm">{p.title}</h3>
+                            <p className="text-xs text-slate-500 mt-1">{p.description}</p>
+                            <p className="text-[10px] text-cyan-600 mt-1 font-mono">
+                                {p.stack.join(' • ')}
+                            </p>
+                        </div>
+                    ))}
                 </div>
-            ))}
-            </div>
-        </section>
+            </section>
+
+            <section>
+                <h2 className="text-lg font-black uppercase tracking-widest mb-6 flex items-center gap-2">
+                    <span className="w-8 h-1 bg-cyan-500"></span> Expériences
+                </h2>
+                <div className="grid grid-cols-1 gap-4">
+                    {experienceData.map((p) => (
+                        <div key={p.id} className="border-l-2 border-slate-100 pl-4">
+                            
+
+                            
+                            <div className="flex justify-between items-baseline">
+                                <h3 className="font-bold text-slate-900">{p.role}</h3>
+                                    <span className="text-xs font-mono text-cyan-600">{p.period}</span>
+                            </div>
+                            <p className="text-sm text-slate-500">{p.company}</p>
+                        </div>
+                        
+                    ))}
+                </div>
+            </section>
             </div>
         </div>
     </main>
