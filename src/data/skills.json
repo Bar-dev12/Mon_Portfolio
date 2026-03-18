@@ -26,5 +26,15 @@
       { "name": "Tauri (Rust)", "level": "Intermédiaire" },
       { "name": "Git / GitHub", "level": "Bon" }
     ]
+  },
+  {
+    "category": "Autres compétences",
+    "icon": "Settings2",
+    "skills": [
+      { "name": "Suite Office", "level": "Très bon" },
+      { "name": "Photoshop", "level": "Bon" },
+      { "name": "Systèmes Windows", "level": "très bon" },
+      { "name": "Systèmes Mac", "level": "Bon" }
+    ]
   }
 ]

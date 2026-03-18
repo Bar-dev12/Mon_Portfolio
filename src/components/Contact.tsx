@@ -51,7 +51,7 @@ export default function Contact() {
                         </a>
 
                         {/* CTA WhatsApp */}
-                        <a href={`https://wa.me/${contact.socials.whatsapp}`} className="flex items-center gap-3 px-6 py-3 bg-slate-900 border border-slate-800 rounded-xl text-white hover:border-green-500/50 transition-all group">
+                        <a href={`${contact.socials.whatsapp}`} className="flex items-center gap-3 px-6 py-3 bg-slate-900 border border-slate-800 rounded-xl text-white hover:border-green-500/50 transition-all group">
                             <div className="p-2 bg-green-500 rounded-lg text-slate-950 group-hover:scale-110 transition-transform">
                             <MessageCircle size={20} />
                             </div>
@@ -74,10 +74,11 @@ export default function Contact() {
             </div>
 
             {/* --- COPYRIGHT ET LOGO --- */}
-            <div className="pt-8 border-t border-slate-800/50 flex items-center justify-between gap-4">
-            <div className="text-xl font-bold text-cyan-400">
+            <div className="pt-8 border-t border-slate-800/50 flex items-center justify-center gap-4">
+            <div className="text-xl font-bold text-slate-500">
                 {siteConfig.logo}
             </div>
+            <div className="bg-cyan-500 h-5 w-1"></div>
             <div className="text-[10px] md:text-xs text-slate-500 text-right">
                 &copy; {contact.copyright} | {personal.firstName} {personal.lastName}. <br className="md:hidden" />
                 Bati avec <span className="text-cyan-600">Next.js</span>

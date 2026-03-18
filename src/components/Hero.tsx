@@ -29,7 +29,7 @@ export default function Hero() {
           </h2>
           
           <p className="mt-6 text-slate-400 text-md max-w-lg leading-relaxed italic">
-            {personal.bio}
+            {personal.description}
           </p>
 
           <div className="mt-10 flex flex-wrap gap-4">

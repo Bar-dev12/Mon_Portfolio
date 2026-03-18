@@ -2,7 +2,7 @@
   {
     "id": "arep-rdc",
     "title": "Plateforme Numérique AREP RDC",
-    "client": "Parti AREP RDC",
+    "client": "AREP RDC",
     "duration": "2 mois",
     "year": "2025",
     "role": "Développeur Full-Stack",
@@ -13,6 +13,22 @@
     "thumbnail": "/images/projects/arep-thumb.png",
     "category": "Web",
     "link": "https://areprdc.cd/",
+    "github": "#"
+  },
+  {
+    "id": "youth-facture",
+    "title": "Youth Facture",
+    "client": "Congolese Youth",
+    "duration": "1 mois",
+    "year": "2025",
+    "role": "Développeur Full-Stack",
+    "collaborators": [],
+    "stack": ["PHP", "Bootstrap", "FFmpeg"],
+    "description": "Système de facturation en ligne pour les services de Congolese Youth, avec génération de factures PDF et gestion des paiements.",
+    "challenge": "",
+    "thumbnail": "/images/projects/youtherp.png",
+    "category": "Web",
+    "link": "#",
     "github": "#"
   },
   {
@@ -64,7 +80,7 @@
   {
     "id": "caisse-pharmacie",
     "title": "Caisse Pharmacie",
-    "client": "Inconu",
+    "client": "Inconnu",
     "duration": "En cours",
     "year": "2026",
     "role": "Développeur Full-Stack",
@@ -73,6 +89,21 @@
     "description": "Application desktop de gestion de stock et de facturation pour officines pharmaceutiques.",
     "thumbnail": "/images/projects/pharmacie.webp",
     "category": "Desktop",
+    "link": "#",
+    "github": "#"
+  },
+  {
+    "id": "mystore-app",
+    "title": "MyStore - Application de Gestion de Magasin",
+    "client": "Inconnu",
+    "duration": "En cours",
+    "year": "2026",
+    "role": "Développeur Full-Stack",
+    "collaborators": ["Greg Kot", "Wise"],
+    "stack": ["Laravel", "Next.js", "PostgreSQL", "Tailwind CSS"],
+    "description": "Application web de gestion commerciale multi-boutiques, incluant gestion des produits, clients, ventes et rapports statistiques.",
+    "thumbnail": "/images/projects/pharmacie.webp",
+    "category": "Web",
     "link": "#",
     "github": "#"
   }

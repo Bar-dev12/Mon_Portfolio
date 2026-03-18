@@ -9,7 +9,7 @@ export default function Parcours() {
 
   return (
     <section id="parcours" className="py-24 bg-[#0f172a]">
-        <div className="max-w-4xl mx-auto px-6">
+        <div className="max-w-7xl mx-auto px-6">
             
             <div className="mb-16">
                 <h2 className="text-3xl md:text-4xl font-bold text-white mb-4">

@@ -13,7 +13,7 @@ export default function Skills() {
           <div className="h-1 w-18 bg-cyan-400 rounded-full"></div>
         </div>
 
-        <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
+        <div className="grid grid-cols-1 md:grid-cols-2 gap-8">
           {skillsData.map((group, index) => {
             // On récupère dynamiquement l'icône du JSON
             const IconComponent = (Icons as unknown as Record<string, React.ComponentType<{size: number}>>)[group.icon] || Icons.Code;
