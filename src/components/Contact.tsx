@@ -42,7 +42,7 @@ export default function Contact() {
                     </p>
 
                     <div className="flex flex-wrap justify-center lg:justify-start gap-4 w-full max-w-xl mx-auto lg:mx-0">
-                    {/* CTA Email */}
+                        {/* CTA Email */}
                         <a href={`mailto:${contact.email}`} className="flex-1 flex items-center gap-3 px-6 py-3 bg-slate-900 border border-slate-800 rounded-xl text-white hover:border-cyan-400/50 transition-all group">
                             <div className="p-2 bg-cyan-500 rounded-lg text-slate-950 group-hover:scale-110 transition-transform">
                             <Mail size={20} />

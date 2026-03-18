@@ -26,7 +26,7 @@ export default function CVPage() {
   return (
     <main className="min-h-screen bg-white text-slate-900 p-4 md:p-8 print:p-0">
       {/* BOUTON IMPRIMER (Caché à l'impression) */}
-        <div className="max-w-[21cm] mx-auto mb-8 flex justify-end print:hidden">
+        <div className="max-w-[21cm] mx-auto mb-4 flex justify-end print:hidden">
             <button 
             onClick={() => window.print()}
             className="px-6 py-2 bg-cyan-600 text-white rounded-lg font-bold hover:bg-cyan-700 transition-colors"
@@ -51,19 +51,24 @@ export default function CVPage() {
                     />
                     </div>
                 </div>
+
+                {/* --- INFOS PERSONNELLES --- */}
                 <div className="mb-8 text-center md:text-left">
-                    <h1 className="text-2xl font-black text-slate-900 uppercase leading-tight">
-                    {personal.firstName} <br /> {personal.lastName}
+                    <h1 className="text-[20px] font-black text-slate-900 uppercase leading-tight">
+                        {personal.firstName} {personal.lastName}
                     </h1>
                     <p className="text-cyan-600 font-bold mt-2">{personal.role}</p>
                 </div>
 
+                {/* --- CONTACT ET RÉSEAUX --- */}
                 <div className="space-y-4 mb-10 text-sm">
                     <ContactInfo icon={<Mail size={16}/>} text={contact.email} />
                     <ContactInfo icon={<Phone size={16}/>} text={personal.phone} />
                     <ContactInfo icon={<MapPin size={16}/>} text={personal.location} />
+                    <ContactInfo icon={<Globe size={16}/>} text={contact.portfolio} />
                 </div>
 
+                {/* --- COMPÉTENCES ET LANGUES --- */}
                 <section className="mb-10">
                     <h2 className="text-sm font-black uppercase tracking-widest mb-4 border-b-2 border-cyan-500 pb-1 inline-block">Compétences</h2>
                     {skillsData.map((cat) => (
@@ -74,6 +79,7 @@ export default function CVPage() {
                     ))}
                 </section>
 
+                {/* --- LANGUES --- */}
                 <section>
                     <h2 className="text-sm font-black uppercase tracking-widest mb-4 border-b-2 border-cyan-500 pb-1 inline-block">Langues</h2>
                     {languages.map(l => (

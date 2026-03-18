@@ -6,7 +6,7 @@ export default function Hero() {
   const { personal } = siteConfig;
 
   return (
-    <section id="hero" className="relative min-h-screen flex items-center pt-20 hover:pt-24 overflow-hidden">
+    <section id="hero" className="relative min-h-screen flex items-center md:pt-20 pt-24 overflow-hidden">
       <div className="max-w-7xl mx-auto px-6 grid grid-cols-1 lg:grid-cols-2 gap-12 items-center">
         
         {/* --- CÔTÉ GAUCHE : TEXTES --- */}
