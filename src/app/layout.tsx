@@ -1,5 +1,6 @@
 import "./globals.css";
 import BackToTop from '@/components/BackToTop';
+import { Analytics } from '@vercel/analytics/next';
 import type { Metadata } from "next";
 
 export default function RootLayout({
@@ -12,6 +13,7 @@ export default function RootLayout({
       <body>
         {children}
         <BackToTop />
+        <Analytics />
       </body>
     </html>
   );
